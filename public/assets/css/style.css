@@ -1,0 +1,30 @@
+@charset "utf8";
+
+#root {
+  width: 95%; margin: auto;
+  margin-top: 20px;
+  min-height: 200px;
+  background: #000;
+}
+.global-commands {
+  width: 95%; margin: auto;
+  margin-top: 20px;
+}
+.meta-screen {
+  width: 95%; margin: auto;
+  margin-top: 20px;
+}
+.meta-screen>div {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#meta-html, #meta-css {
+  float: left;
+  min-height: 200px;
+}
+
+.hl-selected {
+  border: 1px solid #f00 !important;;
+  background: #f99 !important;;
+}

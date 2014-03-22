@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+ul, ol {
+  list-style: none;
+}
+img {
+  border-style:none;
+  vertical-align: middle;
+  /* for being responsive */
+  max-width: 100%; height: auto; width /***/:auto;
+}
+button, input {
+  line-height: normal;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+.clear{
+  clear:both;
+  font-size: 0px;
+  line-height: 0em;
+}

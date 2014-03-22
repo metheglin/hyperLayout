@@ -3,14 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
-  <script src="js/core.js" type="text/javascript"></script>
-  <script src="js/main.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="assets/css/basic.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="bootstrap-3.1.1-dist/css/bootstrap.min.css" />
+  <script src="assets/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="assets/js/core.js" type="text/javascript"></script>
+  <script src="bootstrap-3.1.1-dist/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="assets/js/main.js" type="text/javascript"></script>
 </head>
 <body>
-  <input type="button" id="btn-insert" value="insert" />
-  <input type="button" id="btn-select" value="select" />
+  <div class="global-commands">
+    <input type="button" id="btn-insert" value="insert" disabled='disabled' class="btn-group-op btn btn-danger" />
+    <input type="button" id="btn-select" value="select" class="btn-group-op btn btn-danger" />
+  </div>
+  <div class="meta-screen clearfix">
+    <div>
+      <textarea id="meta-html" class="form-control"></textarea>
+      <button id="btn-meta-html" class="btn btn-primary">Update HTML</button>
+    </div>
+    <div>
+      <textarea id="meta-css" class="form-control"></textarea>
+      <button id="btn-meta-css" class="btn btn-primary" />Update CSS</button>
+    </div>
+  </div>
   <div id="root">
   </div>
 </body>
